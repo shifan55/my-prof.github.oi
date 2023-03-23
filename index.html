@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="head">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="icon" href="images/logo-2.png"/>
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/40bd3615ae.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text"></div>
+            <p class="header-text-p">Computer Network Technician</p>
+            <h1 class="header-text-h1">Hi, I'm <span class="header-text-spa">Shifan</span><br> Abdulla From Sri Lanka</h1>
+        </div>
+        </div>
+<!--------------------------------------------about------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a hardworking and ambitious person with a passion for IT field. I am an undergraduate and I have excellent communication skills, which
+                    enable me to contribute effectively with a wide range of people. I am currently seeking an opportunity to use my technical skills in a
+                    challenging work environment and be a valuable asset to the organization I work for.
+                </p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links" onclick="opentab('edducation')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Network</span><br>Network Troubleshooting <br>Networking Technical Support <br>IP Networking <br>Maintain Network <br>Plan Small Scale Network</li>
+                        <li><span>Server </span><br>FTP Sever Configuration <br>Web Sever Configuration <br>Setup Virtual Servers</li>
+                        <li><span>Router/Switch</span><br>Cisco Router and Switch Initial Configuration <br>Accesspoint Configuration</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>Computer Network Technician Faculty of Medicine, Univercity of Ruhuna</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="edducation">
+                    <ul>
+                        <li><span>2022 - Present</span><br>BSc (Hons) in Cloud Computing Sri Lanka Technological Campus/Padukka</li>
+                        <li><span>2021 </span><br>Computer Network Technician (NVQ4) College of Technology Galle</li>
+                        <li><span>2016 - 2019</span><br>G.C.E Advanced Level Vidyaloka College</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------services-------------------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>Network</h2>
+                <p>Planning Network/Implementing Network</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Server</h2>
+                <p>Installing any kind of Server systems</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="material-icons" style="font-size:68px">router</i>
+                <h2>Router/Switch</h2>
+                <p>Configuring Routers/Switches and Other Network Devices</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designing any kind of Web Sites</p>
+                <a href="#">Learn more...</a>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------------------portfolio---------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Implement Network</h3>
+                    <p></p>
+                    <a href="https://drive.google.com/file/d/1npK1liXqo5kKRehP8cTr8K1Rk2QNPURy/view?usp=sharing"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Configure Servers</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Web Sites/Applications</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------------------------------------------contact-------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> shifanabdulla5@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0769351148</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shifan.abdulla.3"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="instagram.com/shifan_abdulla?igshid=NDU3Y2E5ZmY="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="linkedin.com/in/shifanabdulla55"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/shifan55/shifan55.git"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://join.skype.com/invite/xVRxOIqX0GZ1"><i class="fa-brands fa-skype"></i></a>
+                </div>
+                <a href="images/Shifan's Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shifan.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0"
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px"
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5gBsYVhmU0My-dhB_w5pqHdU83WxeX-0Rhvvcl1HYyVKGYcPuWoOgdGzDJWpcGh8O/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Massage send sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
